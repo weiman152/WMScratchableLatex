@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76C326C71B96993800274A64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C326C61B96993800274A64 /* main.m */; };
+		76C326CA1B96993800274A64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C326C91B96993800274A64 /* AppDelegate.m */; };
+		76C326CD1B96993800274A64 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C326CC1B96993800274A64 /* ViewController.m */; };
+		76C326D01B96993800274A64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76C326CE1B96993800274A64 /* Main.storyboard */; };
+		76C326D21B96993800274A64 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76C326D11B96993800274A64 /* Images.xcassets */; };
+		76C326D51B96993800274A64 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76C326D31B96993800274A64 /* LaunchScreen.xib */; };
+		76C326E11B96993800274A64 /* WMScratchableLatexTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C326E01B96993800274A64 /* WMScratchableLatexTests.m */; };
+		76C326F51B96A8B700274A64 /* ScratchableLatex.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C326F41B96A8B700274A64 /* ScratchableLatex.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76C326DB1B96993800274A64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76C326B91B96993800274A64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76C326C01B96993800274A64;
+			remoteInfo = WMScratchableLatex;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		76C326C11B96993800274A64 /* WMScratchableLatex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WMScratchableLatex.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76C326C51B96993800274A64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76C326C61B96993800274A64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		76C326C81B96993800274A64 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		76C326C91B96993800274A64 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		76C326CB1B96993800274A64 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		76C326CC1B96993800274A64 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		76C326CF1B96993800274A64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76C326D11B96993800274A64 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		76C326D41B96993800274A64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		76C326DA1B96993800274A64 /* WMScratchableLatexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WMScratchableLatexTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76C326DF1B96993800274A64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76C326E01B96993800274A64 /* WMScratchableLatexTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMScratchableLatexTests.m; sourceTree = "<group>"; };
+		76C326F31B96A8B700274A64 /* ScratchableLatex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScratchableLatex.h; sourceTree = "<group>"; };
+		76C326F41B96A8B700274A64 /* ScratchableLatex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScratchableLatex.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76C326BE1B96993800274A64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76C326D71B96993800274A64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76C326B81B96993800274A64 = {
+			isa = PBXGroup;
+			children = (
+				76C326C31B96993800274A64 /* WMScratchableLatex */,
+				76C326DD1B96993800274A64 /* WMScratchableLatexTests */,
+				76C326C21B96993800274A64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76C326C21B96993800274A64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76C326C11B96993800274A64 /* WMScratchableLatex.app */,
+				76C326DA1B96993800274A64 /* WMScratchableLatexTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76C326C31B96993800274A64 /* WMScratchableLatex */ = {
+			isa = PBXGroup;
+			children = (
+				76C326F21B96A8A600274A64 /* WMScratchableLatex */,
+				76C326F11B96A45000274A64 /* Others */,
+				76C326CB1B96993800274A64 /* ViewController.h */,
+				76C326CC1B96993800274A64 /* ViewController.m */,
+				76C326C41B96993800274A64 /* Supporting Files */,
+			);
+			path = WMScratchableLatex;
+			sourceTree = "<group>";
+		};
+		76C326C41B96993800274A64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				76C326C51B96993800274A64 /* Info.plist */,
+				76C326C61B96993800274A64 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		76C326DD1B96993800274A64 /* WMScratchableLatexTests */ = {
+			isa = PBXGroup;
+			children = (
+				76C326E01B96993800274A64 /* WMScratchableLatexTests.m */,
+				76C326DE1B96993800274A64 /* Supporting Files */,
+			);
+			path = WMScratchableLatexTests;
+			sourceTree = "<group>";
+		};
+		76C326DE1B96993800274A64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				76C326DF1B96993800274A64 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		76C326F11B96A45000274A64 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				76C326C81B96993800274A64 /* AppDelegate.h */,
+				76C326C91B96993800274A64 /* AppDelegate.m */,
+				76C326CE1B96993800274A64 /* Main.storyboard */,
+				76C326D11B96993800274A64 /* Images.xcassets */,
+				76C326D31B96993800274A64 /* LaunchScreen.xib */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		76C326F21B96A8A600274A64 /* WMScratchableLatex */ = {
+			isa = PBXGroup;
+			children = (
+				76C326F31B96A8B700274A64 /* ScratchableLatex.h */,
+				76C326F41B96A8B700274A64 /* ScratchableLatex.m */,
+			);
+			path = WMScratchableLatex;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76C326C01B96993800274A64 /* WMScratchableLatex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76C326E41B96993800274A64 /* Build configuration list for PBXNativeTarget "WMScratchableLatex" */;
+			buildPhases = (
+				76C326BD1B96993800274A64 /* Sources */,
+				76C326BE1B96993800274A64 /* Frameworks */,
+				76C326BF1B96993800274A64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WMScratchableLatex;
+			productName = WMScratchableLatex;
+			productReference = 76C326C11B96993800274A64 /* WMScratchableLatex.app */;
+			productType = "com.apple.product-type.application";
+		};
+		76C326D91B96993800274A64 /* WMScratchableLatexTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76C326E71B96993800274A64 /* Build configuration list for PBXNativeTarget "WMScratchableLatexTests" */;
+			buildPhases = (
+				76C326D61B96993800274A64 /* Sources */,
+				76C326D71B96993800274A64 /* Frameworks */,
+				76C326D81B96993800274A64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76C326DC1B96993800274A64 /* PBXTargetDependency */,
+			);
+			name = WMScratchableLatexTests;
+			productName = WMScratchableLatexTests;
+			productReference = 76C326DA1B96993800274A64 /* WMScratchableLatexTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76C326B91B96993800274A64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = weiman;
+				TargetAttributes = {
+					76C326C01B96993800274A64 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					76C326D91B96993800274A64 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 76C326C01B96993800274A64;
+					};
+				};
+			};
+			buildConfigurationList = 76C326BC1B96993800274A64 /* Build configuration list for PBXProject "WMScratchableLatex" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76C326B81B96993800274A64;
+			productRefGroup = 76C326C21B96993800274A64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76C326C01B96993800274A64 /* WMScratchableLatex */,
+				76C326D91B96993800274A64 /* WMScratchableLatexTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76C326BF1B96993800274A64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76C326D01B96993800274A64 /* Main.storyboard in Resources */,
+				76C326D51B96993800274A64 /* LaunchScreen.xib in Resources */,
+				76C326D21B96993800274A64 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76C326D81B96993800274A64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76C326BD1B96993800274A64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76C326CD1B96993800274A64 /* ViewController.m in Sources */,
+				76C326CA1B96993800274A64 /* AppDelegate.m in Sources */,
+				76C326C71B96993800274A64 /* main.m in Sources */,
+				76C326F51B96A8B700274A64 /* ScratchableLatex.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76C326D61B96993800274A64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76C326E11B96993800274A64 /* WMScratchableLatexTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76C326DC1B96993800274A64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76C326C01B96993800274A64 /* WMScratchableLatex */;
+			targetProxy = 76C326DB1B96993800274A64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		76C326CE1B96993800274A64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76C326CF1B96993800274A64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		76C326D31B96993800274A64 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76C326D41B96993800274A64 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76C326E21B96993800274A64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		76C326E31B96993800274A64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76C326E51B96993800274A64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WMScratchableLatex/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		76C326E61B96993800274A64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WMScratchableLatex/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		76C326E81B96993800274A64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WMScratchableLatexTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WMScratchableLatex.app/WMScratchableLatex";
+			};
+			name = Debug;
+		};
+		76C326E91B96993800274A64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WMScratchableLatexTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WMScratchableLatex.app/WMScratchableLatex";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76C326BC1B96993800274A64 /* Build configuration list for PBXProject "WMScratchableLatex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76C326E21B96993800274A64 /* Debug */,
+				76C326E31B96993800274A64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76C326E41B96993800274A64 /* Build configuration list for PBXNativeTarget "WMScratchableLatex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76C326E51B96993800274A64 /* Debug */,
+				76C326E61B96993800274A64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		76C326E71B96993800274A64 /* Build configuration list for PBXNativeTarget "WMScratchableLatexTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76C326E81B96993800274A64 /* Debug */,
+				76C326E91B96993800274A64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76C326B91B96993800274A64 /* Project object */;
+}
